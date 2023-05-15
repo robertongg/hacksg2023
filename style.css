@@ -1,0 +1,77 @@
+body {
+    
+    font-family: Trebuchet MS;
+}
+
+.navigation-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border-top: 5px solid green;
+
+    .navigation-items {
+        text-align: center;
+        margin-top: 10px;
+
+        & > button {
+            display: inline-block;
+            font-weight: bold;
+            padding: 15px 30px;
+            margin: 0 10px;
+            background-color: inherit;
+            border: none;
+            font-size: 9pt;
+            border-bottom: 3px solid white;
+            color: green;
+
+            &:hover {
+                color: black;
+                background-color: #F3FAEC;
+                border-bottom: 3px solid green;
+            }
+        }
+    }
+}
+
+.navigation-bar-bg {
+    height: 70px;
+}
+
+.button-1 {
+    background-color: green;
+    color: #F3FAEC;
+    border: 2px solid green;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: inherit;
+
+    &:hover {
+        background-color: #F3FAEC;
+        color: green;
+    }
+}
+
+.button-2 {
+    background-color: #F3FAEC;
+    color: green;
+    border: 2px solid green;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: inherit;
+
+    &:hover {
+        background-color: green;
+        color: #F3FAEC;
+    }
+}
+
+.link {
+    color: green;
+    font-style: italic;
+    text-decoration: initial;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
