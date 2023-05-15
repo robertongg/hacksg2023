@@ -1,14 +1,15 @@
 body {
-    
     font-family: Trebuchet MS;
 }
 
-.navigation-bar {
+.header {
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
     border-top: 5px solid green;
+    border-bottom: 1px solid #DADADA;
+    background-color: white;
 
     .navigation-items {
         text-align: center;
@@ -21,7 +22,7 @@ body {
             margin: 0 10px;
             background-color: inherit;
             border: none;
-            font-size: 9pt;
+            font-size: 12pt;
             border-bottom: 3px solid white;
             color: green;
 
@@ -34,7 +35,7 @@ body {
     }
 }
 
-.navigation-bar-bg {
+.header-bg {
     height: 70px;
 }
 
@@ -73,5 +74,36 @@ body {
 
     &:hover {
         text-decoration: underline;
+    }
+}
+
+.footer {
+    background-color: #D1ECB6;
+    padding: 25px 30px 50px 30px;
+    position: absolute;
+    width: calc(100% - 60px);
+    left: 0px;
+
+    .footer-home-link {
+        display: inline-block;
+        margin: 0 5px 15px 5px;
+        font-weight: bold;
+        font-size: 15pt;
+
+        &:hover {
+            text-decoration: underline;
+            color: green;
+        }
+    }
+
+    .footer-links {
+        display: inline-block;
+        font-size: 9pt;
+        margin: 0 5px;
+
+        &:hover {
+            text-decoration: underline;
+            color: green;
+        }
     }
 }
