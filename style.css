@@ -39,6 +39,10 @@ body {
     height: 70px;
 }
 
+.heading {
+    color: green;
+}
+
 .button-1 {
     background-color: green;
     color: #F3FAEC;
