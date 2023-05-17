@@ -39,7 +39,11 @@ body {
     height: 70px;
 }
 
-.heading {
+.heading-black {
+    color: black;
+}
+
+.heading-green {
     color: green;
 }
 
