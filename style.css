@@ -15,7 +15,7 @@ body {
         text-align: center;
         margin-top: 10px;
 
-        & > button {
+        & button {
             display: inline-block;
             font-weight: bold;
             padding: 15px 30px;
@@ -39,58 +39,68 @@ body {
     height: 70px;
 }
 
-.heading-black {
-    color: black;
-}
+.content {
+    margin: 0px 25px;
 
-.heading-green {
-    color: green;
-}
+    .heading-black {
+        color: black;
+    }
 
-.button-1 {
-    background-color: green;
-    color: #F3FAEC;
-    border: 2px solid green;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-family: inherit;
-
-    &:hover {
-        background-color: #F3FAEC;
+    .heading-green {
         color: green;
     }
-}
 
-.button-2 {
-    background-color: #F3FAEC;
-    color: green;
-    border: 2px solid green;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-family: inherit;
-
-    &:hover {
+    .button-1 {
         background-color: green;
         color: #F3FAEC;
+        border: 2px solid green;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-family: inherit;
+
+        &:hover {
+            background-color: #F3FAEC;
+            color: green;
+        }
     }
-}
 
-.link {
-    color: green;
-    font-style: italic;
-    text-decoration: initial;
+    .button-2 {
+        background-color: #F3FAEC;
+        color: green;
+        border: 2px solid green;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-family: inherit;
 
-    &:hover {
-        text-decoration: underline;
+        &:hover {
+            background-color: green;
+            color: #F3FAEC;
+        }
+    }
+
+    .link {
+        color: green;
+        font-style: italic;
+        text-decoration: initial;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
 .footer {
     background-color: #D1ECB6;
     padding: 25px 30px 50px 30px;
+    margin-top: 15px;
     position: absolute;
     width: calc(100% - 60px);
     left: 0px;
+
+    & > a {
+        text-decoration: none;
+        color: black;
+    }
 
     .footer-home-link {
         display: inline-block;
