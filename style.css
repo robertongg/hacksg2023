@@ -1,127 +1,93 @@
 body {
     font-family: Trebuchet MS;
+    background-image: url("static/banner.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin: 0;
 }
 
-.header {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    border-top: 5px solid green;
-    border-bottom: 1px solid #DADADA;
-    background-color: white;
-
-    .navigation-items {
-        text-align: center;
-        margin-top: 10px;
-
-        & button {
-            display: inline-block;
-            font-weight: bold;
-            padding: 15px 30px;
-            margin: 0 10px;
-            background-color: inherit;
-            border: none;
-            font-size: 12pt;
-            border-bottom: 3px solid white;
-            color: green;
-
-            &:hover {
-                color: black;
-                background-color: #F3FAEC;
-                border-bottom: 3px solid green;
-            }
-        }
-    }
-}
-
-.header-bg {
-    height: 70px;
+.black-layer {
+    background-color: black;
+    height: 100%;
+    opacity: 0.5;
 }
 
 .content {
-    margin: 0px 25px;
+    font-size: 175%;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    left: 10%;
 
-    .heading-black {
-        color: black;
+    & > h1, & > h5 {
+        text-shadow: 0 0 50px green;
+        font-weight: 900;
+        margin: 50px 0;
     }
 
-    .heading-green {
-        color: green;
-    }
-
-    .button-1 {
-        background-color: green;
-        color: #F3FAEC;
-        border: 2px solid green;
-        padding: 10px 20px;
-        border-radius: 20px;
+    .fields {
         font-family: inherit;
+        font-size: inherit;
+        padding: 0px 5px;
+        background-color: inherit;
+        color: white;
+        border: 0px;
+        border-bottom: 1px solid white;
+        text-align: center;
 
-        &:hover {
-            background-color: #F3FAEC;
-            color: green;
+        &:focus {
+            border: 0px;
+            border-bottom: 1px solid white;
         }
     }
 
-    .button-2 {
-        background-color: #F3FAEC;
-        color: green;
-        border: 2px solid green;
-        padding: 10px 20px;
-        border-radius: 20px;
-        font-family: inherit;
+    #postal-field {
+        width: 155px;
 
-        &:hover {
-            background-color: green;
-            color: #F3FAEC;
-        }
-    }
-
-    .link {
-        color: green;
-        font-style: italic;
-        text-decoration: initial;
-
-        &:hover {
-            text-decoration: underline;
+        &::placeholder {
+            color: white;
         }
     }
 }
 
-.footer {
-    background-color: #D1ECB6;
-    padding: 25px 30px 50px 30px;
-    margin-top: 15px;
-    position: absolute;
-    width: calc(100% - 60px);
-    left: 0px;
+.button-1 {
+    background-color: green;
+    color: #F3FAEC;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: inherit;
+    font-weight: bold;
 
-    & > a {
-        text-decoration: none;
-        color: black;
+    &:hover {
+        background-color: #F3FAEC;
+        color: green;
+        border: 2px solid green;
     }
+}
 
-    .footer-home-link {
-        display: inline-block;
-        margin: 0 5px 15px 5px;
-        font-weight: bold;
-        font-size: 15pt;
+.button-2 {
+    background-color: #F3FAEC;
+    color: green;
+    border: 2px solid green;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: inherit;
 
-        &:hover {
-            text-decoration: underline;
-            color: green;
-        }
+    &:hover {
+        background-color: green;
+        color: #F3FAEC;
     }
+}
 
-    .footer-links {
-        display: inline-block;
-        font-size: 9pt;
-        margin: 0 5px;
+.link {
+    color: green;
+    font-style: italic;
+    text-decoration: initial;
 
-        &:hover {
-            text-decoration: underline;
-            color: green;
-        }
+    &:hover {
+        text-decoration: underline;
     }
 }
