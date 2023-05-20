@@ -1,5 +1,51 @@
-initMap();
+// initMap();
 // Initialize and display the map
+function readFileAsString(filePath) {
+  try {
+    const fs = require('fs');
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    console.log(fileContent);
+    return fileContent;
+  } catch (error) {
+    console.error('Error reading file:', error);
+    return null;
+  }
+}
+
+// readFileAsString('e-waste.csv')
+extractCoordinatesFromFile('e-waste.csv')
+
+
+function extractCoordinatesFromFile(filePath) {
+  const coordinates = [];
+  const fs = require('fs');
+
+  const fileContent = fs.readFileSync(filePath, 'utf-8');
+  const lines = fileContent.split('\n');
+
+  const regex = /destination=([-.\d]+),([-.\d]+)/;
+
+  for (let line of lines) {
+    if (line.includes('https')) {
+      const match = regex.exec(line);
+      if (match) {
+        const latitude = parseFloat(match[1]);
+        const longitude = parseFloat(match[2]);
+        coordinates.push({ latitude, longitude });
+      }
+    }
+  }
+  console.log(coordinates);
+
+  return coordinates;
+}
+
+// Example usage
+// const filePath = 'path/to/file.txt';
+// const extractedCoordinates = extractCoordinatesFromFile(filePath);
+// console.log(extractedCoordinates);
+
+
 function initMap() {
 
 
