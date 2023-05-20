@@ -4,7 +4,7 @@ body {
 }
 
 #home-background {
-    background-image: url("static/banner.jpg");
+    background-image: url("static/background.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: center;
