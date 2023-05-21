@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../style.css" />
+        <title>Home</title>
+    </head>
+    <body>
+        <form id="filter-bar" action="mapPage.html">
+            <h3>Postal Code:</h3>
+            <input type="text" class="fields" id="postal-field" name="postal" maxlength="6" placeholder="None" pattern="[0-9]{6}" />
+            <h3>Recyle Bin:</h3>
+            <select class="fields" id="bin-selector" name="bin">
+                <option value="">All</option>
+                <option value="blue_bin">Blue Bin</option>
+                <option value="e_waste">e-Waste Bin</option>
+                <option value="clothes">Clothes Recylce Bin</option>
+                <option value="cash">Cash for Trash</option>
+            </select>
+            <input type="submit" class="button-2" id="home-submit" value="SEARCH" />
+        </form>
+        <div id="left-side-buttons">
+            <button id="toggle-pin-points-button"><i class="fa fa-close"></i></button>
+        </div>
+        <section id="pin-points-section">
+            <div class="pin-point-details">
+                <h4>Name</h4>
+                <p>Location</p>
+            </div>
+            <div class="pin-point-details">
+                <h4>Name</h4>
+                <p>Location</p>
+            </div>
+        </section>
+        <section id="map-section" class="show-pin-points-section"></section>
+
+        <script>
+            $(document).ready(function() {
+                var urlParams = new URLSearchParams(window.location.search);
+                $("#bin-selector").val(urlParams.get("bin"));
+                $("#postal-field").val(urlParams.get("postal"));
+
+                $("#map-section").load("map.html");
+
+                $("#toggle-pin-points-button").click(function() {
+                    $("#pin-points-section").toggle();
+                    $("#map-section").toggleClass("show-pin-points-section hide-pin-points-section");
+                    $(this).children().toggleClass("fa-bars fa-close");
+                });
+            });
+        </script>
+    </body>
+</html>
