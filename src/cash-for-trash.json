@@ -1,0 +1,614 @@
+[
+  {
+    "ID": 1,
+    "Town Councils": "CHUA CHU KANG TC",
+    "Location": "Blk 323 Bukit Batok St 33",
+    "Postal Code": 650323,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "4-Feb-23"
+  },
+  {
+    "ID": 2,
+    "Town Councils": "CHUA CHU KANG TC",
+    "Location": "Blk 449A Bukit Batok West Ave 9",
+    "Postal Code": 651449,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "5-Feb-23"
+  },
+  {
+    "ID": 3,
+    "Town Councils": "CHUA CHU KANG TC",
+    "Location": "35 Teck Whye Avenue",
+    "Postal Code": 688892,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "4-Feb-23"
+  },
+  {
+    "ID": 4,
+    "Town Councils": "CHUA CHU KANG TC",
+    "Location": "Blk 414 Choa Chu Kang Ave 4",
+    "Postal Code": 680414,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "4-Feb-23"
+  },
+  {
+    "ID": 5,
+    "Town Councils": "CHUA CHU KANG TC",
+    "Location": "Blk 469 Choa Chu Kang Ave 3",
+    "Postal Code": 680469,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "4-Feb-23"
+  },
+  {
+    "ID": 6,
+    "Town Councils": "CHUA CHU KANG TC",
+    "Location": "Blk 807B Choa Chu Kang Ave 1",
+    "Postal Code": 682807,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "5-Feb-23"
+  },
+  {
+    "ID": 7,
+    "Town Councils": "CHUA CHU KANG TC",
+    "Location": "Blk 218 Choa Chu Kang Central",
+    "Postal Code": 680218,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "5-Feb-23"
+  },
+  {
+    "ID": 8,
+    "Town Councils": "CHUA CHU KANG TC",
+    "Location": "Blk 15 Teck Whye Lane",
+    "Postal Code": 680015,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "5-Feb-23"
+  },
+  {
+    "ID": 9,
+    "Town Councils": "HOLLAND BUKIT PANJANG TC",
+    "Location": "Blk 9 Toh Yi Drive",
+    "Postal Code": 590009,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 10,
+    "Town Councils": "HOLLAND BUKIT PANJANG TC",
+    "Location": "Blk 543 Jelapang Road",
+    "Postal Code": 670543,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "11-Feb-23"
+  },
+  {
+    "ID": 11,
+    "Town Councils": "HOLLAND BUKIT PANJANG TC",
+    "Location": "Blk 180 Lompang Road",
+    "Postal Code": 670180,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "11-Feb-23"
+  },
+  {
+    "ID": 12,
+    "Town Councils": "HOLLAND BUKIT PANJANG TC",
+    "Location": "Blk 527 Jelapang Road, Pangshan Valley",
+    "Postal Code": 670527,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "11-Feb-23"
+  },
+  {
+    "ID": 13,
+    "Town Councils": "HOLLAND BUKIT PANJANG TC",
+    "Location": "Drop off shelter between Blk 636A & 636C Senja Road",
+    "Postal Code": 673636,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "11-Feb-23"
+  },
+  {
+    "ID": 14,
+    "Town Councils": "HOLLAND BUKIT PANJANG TC",
+    "Location": "Blk 456 Segar Road, Segar Meadows",
+    "Postal Code": 671456,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "11-Feb-23"
+  },
+  {
+    "ID": 15,
+    "Town Councils": "HOLLAND BUKIT PANJANG TC",
+    "Location": "Drop off area between Blk 623 & 624 Bukit Panjang Ring Road",
+    "Postal Code": 670624,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "11-Feb-23"
+  },
+  {
+    "ID": 16,
+    "Town Councils": "HOLLAND BUKIT PANJANG TC",
+    "Location": "Blk 257 Bangkit Road",
+    "Postal Code": 670257,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "11-Feb-23"
+  },
+  {
+    "ID": 17,
+    "Town Councils": "HOLLAND BUKIT PANJANG TC",
+    "Location": "Blk 259 Bukit Panjang Ring Road",
+    "Postal Code": 671259,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "11-Feb-23"
+  },
+  {
+    "ID": 18,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Hard Court beside Taman Jurong CC",
+    "Postal Code": 618495,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 19,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 484 Jurong West St 41",
+    "Postal Code": 640484,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 20,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 456 Jurong West Street 41",
+    "Postal Code": 640456,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 21,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 346 Jurong East St 31 opposite Sports Complex",
+    "Postal Code": 600346,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 22,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 288A Jurong East St 21",
+    "Postal Code": 601288,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 23,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 251 Jurong East St 24 infront",
+    "Postal Code": 600251,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 24,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 270 Toh Guan Road",
+    "Postal Code": 600270,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 25,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 210 Bukit Batok St 21,",
+    "Postal Code": 650210,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 26,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 154A Bukit Batok West Ave 8,",
+    "Postal Code": 651154,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 27,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 267 Bukit Batok East Ave 4",
+    "Postal Code": 640267,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 28,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 292 Bukit Batok East Ave 6",
+    "Postal Code": 650292,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "11-Feb-23"
+  },
+  {
+    "ID": 29,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 544 Jurong West St 42",
+    "Postal Code": 640544,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "11-Feb-23"
+  },
+  {
+    "ID": 30,
+    "Town Councils": "JURONG-CLEMENTI TC",
+    "Location": "Blk 449 Jurong West St 42",
+    "Postal Code": 640449,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 31,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Space between Blk 32 & Blk 65 Teban Gardens",
+    "Postal Code": 600065,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 32,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 274D Jurong West Ave 3",
+    "Postal Code": 644274,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 33,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 625 Jurong West St 61",
+    "Postal Code": 640625,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 34,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 682B Jurong West Central 1",
+    "Postal Code": 642682,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 35,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 640 Jurong West St 61",
+    "Postal Code": 640640,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 36,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 652 Jurong West St 61",
+    "Postal Code": 640652,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 37,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 692 Jurong West Central 1",
+    "Postal Code": 640692,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 38,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 658B Jurong West St 65",
+    "Postal Code": 642658,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 39,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 662C Jurong West St 64",
+    "Postal Code": 640662,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 40,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 750 Jurong West St 73",
+    "Postal Code": 640750,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 41,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 953 Jurong West St 91",
+    "Postal Code": 640953,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 42,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 986B Jurong West St 93",
+    "Postal Code": 642986,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 43,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 613 Jurong West St 62",
+    "Postal Code": 640613,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 44,
+    "Town Councils": "WEST COAST TC",
+    "Location": "Blk 608 Jurong West St 65",
+    "Postal Code": 640608,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 45,
+    "Town Councils": "SEMBAWANG TC",
+    "Location": "Blk 547 Woodlands Drive 16",
+    "Postal Code": 730547,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 46,
+    "Town Councils": "SEMBAWANG TC",
+    "Location": "Blk 683A Woodlands Drive 62,",
+    "Postal Code": 731683,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 47,
+    "Town Councils": "SEMBAWANG TC",
+    "Location": "Blk 766 Woodlands Circle",
+    "Postal Code": 730766,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 48,
+    "Town Councils": "SEMBAWANG TC",
+    "Location": "Blk 120 Sembawang Crescent",
+    "Postal Code": 750120,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 49,
+    "Town Councils": "SEMBAWANG TC",
+    "Location": "Blk 312 Sembawang Drive",
+    "Postal Code": 750312,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 50,
+    "Town Councils": "SEMBAWANG TC",
+    "Location": "Blk 359 Sembawang Crescent",
+    "Postal Code": 750359,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 51,
+    "Town Councils": "SEMBAWANG TC",
+    "Location": "Blk 509A Wellington Circle,",
+    "Postal Code": 751509,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 52,
+    "Town Councils": "SEMBAWANG TC",
+    "Location": "Blk 588C Montreal Drive",
+    "Postal Code": 753588,
+    "Schedule": "Every Saturday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "28-Jan-23"
+  },
+  {
+    "ID": 53,
+    "Town Councils": "NEE SOON TC",
+    "Location": "Blk 110 Yishun Ring Road",
+    "Postal Code": 760110,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 54,
+    "Town Councils": "NEE SOON TC",
+    "Location": "Blk 124 Yishun Street 11",
+    "Postal Code": 760124,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 55,
+    "Town Councils": "NEE SOON TC",
+    "Location": "Blk 316A Yishun Ave 9",
+    "Postal Code": 761316,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 56,
+    "Town Councils": "NEE SOON TC",
+    "Location": "Blk 415 Yishun Ave 11",
+    "Postal Code": 760415,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 57,
+    "Town Councils": "NEE SOON TC",
+    "Location": "Blk 644 Yishun Street 61",
+    "Postal Code": 760644,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 58,
+    "Town Councils": "NEE SOON TC",
+    "Location": "Blk 718 Yishun Street 71",
+    "Postal Code": 760718,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 59,
+    "Town Councils": "NEE SOON TC",
+    "Location": "514 Yishun St 51 Multi-Purpose Hall",
+    "Postal Code": 760514,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 60,
+    "Town Councils": "NEE SOON TC",
+    "Location": "Blk 841 Yishun Street 81",
+    "Postal Code": 760841,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "12-Feb-23"
+  },
+  {
+    "ID": 61,
+    "Town Councils": "MARSILING-YEW TEE TC",
+    "Location": "Blk 668 Choa Chu Kang Crescent",
+    "Postal Code": 680668,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 62,
+    "Town Councils": "MARSILING-YEW TEE TC",
+    "Location": "Blk 787 Choa Chu Kang North 6",
+    "Postal Code": 682787,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 63,
+    "Town Councils": "MARSILING-YEW TEE TC",
+    "Location": "Blk 627 Choa Chu Kang Street 62",
+    "Postal Code": 680627,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 64,
+    "Town Councils": "MARSILING-YEW TEE TC",
+    "Location": "Blk 563 Choa Chu Kang Street 52",
+    "Postal Code": 680563,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 65,
+    "Town Councils": "MARSILING-YEW TEE TC",
+    "Location": "Blk 32 Marsiling Drive",
+    "Postal Code": 730032,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 66,
+    "Town Councils": "MARSILING-YEW TEE TC",
+    "Location": "Blk 132 Marsiling Rise",
+    "Postal Code": 730132,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 67,
+    "Town Councils": "MARSILING-YEW TEE TC",
+    "Location": "Blk 302 Woodlands Street 31",
+    "Postal Code": 730302,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  },
+  {
+    "ID": 68,
+    "Town Councils": "MARSILING-YEW TEE TC",
+    "Location": "Blk 182 Woodlands St 13",
+    "Postal Code": 730182,
+    "Schedule": "Every Sunday",
+    "Timing": "8AM - 12.45PM",
+    "Resuming on:": "29-Jan-23"
+  }
+]
