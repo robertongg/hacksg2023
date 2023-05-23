@@ -1,4 +1,4 @@
-import locationData from "./cash-for-trash-geocoded.json" assert { type: 'json' };;
+import locationData from "./cash-for-trash-geocoded.json" assert { type: 'json' };
 
 initMap();
 // Initialize and display the map
@@ -10,6 +10,30 @@ function initMap() {
     zoom: 12,
     center: myLatLng,
   });
+  // Centers map and increases zoom if postal code was entered
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const postalCode = urlParams.get("postal");
+  const apiUrl = `https://developers.onemap.sg/commonapi/search?searchVal=${encodeURIComponent(postalCode)}&returnGeom=Y&getAddrDetails=Y`
+  fetch(apiUrl)
+  .then(response => response.json())
+  .then(data => {
+    // Handle the API response
+    // Extract the geolocation data from the response
+    const results = data.results;
+    if (results.length > 0) {
+      const latitude = parseFloat(results[0].LATITUDE);
+      const longitude = parseFloat(results[0].LONGITUDE);
+      map.setCenter({lat: latitude, lng: longitude});
+      map.setZoom(16);
+    } else {
+      console.log('No geolocation data found for the postal code:', postalCode);
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+  // Add markers and info windows
   let prev_infowindow = false; 
   locationData.map((location, i) => {
     let marker = new google.maps.Marker({
@@ -34,6 +58,19 @@ function initMap() {
         map,
       });
     });
+    // Add locations to pin points section in left sidebar
+    let nameNode = document.createElement("h4");
+    nameNode.append("Cash For Trash");
+    let locationNode = document.createElement("p");
+    locationNode.append(location["Location"] + ", " + location["Postal Code"]);
+
+    let pinPointNode = document.createElement("div");
+    pinPointNode.classList.add("pin-point-details");
+    pinPointNode.append(nameNode);
+    pinPointNode.append(locationNode);
+
+    let pinPointsSection = document.getElementById("pin-points-section");
+    pinPointsSection.append(pinPointNode);
   });
 }
 
