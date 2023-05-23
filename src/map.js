@@ -35,13 +35,14 @@ function initMap() {
   });
   // Add markers and info windows
   let prev_infowindow = false; 
-  locationData.map((location, i) => {
+  let markers = locationData.map((location, i) => {
     let marker = new google.maps.Marker({
       position: {
         lat: parseFloat(location["Latitude"]),
         lng: parseFloat(location["Longitude"])
       },
       map: map,
+      title: "cash-for-trash-" + i,
     });
     const infowindow = new google.maps.InfoWindow({
       content: `<div>Cash For Trash</div><div>${location["Location"]}, ${location["Postal Code"]}</div>`,
@@ -66,11 +67,24 @@ function initMap() {
 
     let pinPointNode = document.createElement("div");
     pinPointNode.classList.add("pin-point-details");
+    pinPointNode.id = "pin-point-cash-for-trash-" + i;
     pinPointNode.append(nameNode);
     pinPointNode.append(locationNode);
 
     let pinPointsSection = document.getElementById("pin-points-section");
     pinPointsSection.append(pinPointNode);
+
+    return marker;
+  });
+  map.addListener("bounds_changed", () => {
+    for (var i=0; i < markers.length; i++) {
+      let pinPointNode = document.getElementById("pin-point-" + markers[i].getTitle());
+      if (map.getBounds().contains(markers[i].getPosition())) {
+        pinPointNode.style.display = "block";
+      } else {
+        pinPointNode.style.display = "none";
+      }
+    }
   });
 }
 
